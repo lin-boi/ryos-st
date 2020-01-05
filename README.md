@@ -61,6 +61,8 @@ The `alpha` value (for transparency) goes from `0` (transparent) to `1` (opaque)
 - This build will use gruvbox colors by default and as a fallback.
 - If there are Xresources colors defined, those will take priority.
 - But if `wal` has run in your session, its colors will take priority.
+## Todo
+- Nothing Really, this is a pretty good build, thanks lukesmithxyz
 ## Contact
 - <Linboi> linboi@linboi.com
  
