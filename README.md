@@ -1,13 +1,13 @@
-# Luke's build of st - the simple (suckless) terminal
+# Linboy's version of st - the simple (suckless) terminal
 
-The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
+The [suckless terminal (st)](https://st.suckless.org/) modified with additional features. Forked from lukesmith.
 
 ## Unique features (using dmenu)
 
 + **follow urls** by pressing `alt-l`
 + **copy urls** in the same way with `alt-y`
 + **copy the output of commands** with `alt-o`
-
+gsf
 ## Bindings for
 
 + **scrollback** with `alt-↑/↓` or `alt-pageup/down` or `shift` while scrolling the mouse
@@ -29,16 +29,13 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 + font2
 + updated to latest version 0.8.2
 
-## Installation for newbs
+## Installation
 
 ```
 git clone https://github.com/LukeSmithxyz/st
 cd st
 sudo make install
 ```
-
-Users of Arch-based distros can also install it from the AUR as [st-luke-git](https://aur.archlinux.org/packages/st-luke-git/).
-
 Obviously, `make` is required to build. `fontconfig` is required for the default build, since it asks `fontconfig` for your system monospace font.  It might be obvious, but `libX11` and `libXft` are required as well. Chances are, you have all of this installed already.
 
 On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the `$LIBS` before compiling.
@@ -61,16 +58,9 @@ For example, you can define your desired fonts, transparency or colors:
 The `alpha` value (for transparency) goes from `0` (transparent) to `1` (opaque).
 
 ### Colors
-
-To be clear about the color settings:
-
 - This build will use gruvbox colors by default and as a fallback.
 - If there are Xresources colors defined, those will take priority.
 - But if `wal` has run in your session, its colors will take priority.
-
-Note that when you run `wal`, it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
-
 ## Contact
-
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
+- <Linboi> linboi@linboi.com
+ 
